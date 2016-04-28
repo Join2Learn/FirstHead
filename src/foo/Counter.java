@@ -6,6 +6,7 @@ public class Counter
    public static synchronized int getCounter()
    {
 	   count++;
+           count = count -1;
 	   return count;
    }   
 }
